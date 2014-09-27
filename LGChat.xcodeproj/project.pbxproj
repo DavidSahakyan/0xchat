@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E4EF79F19D700FF003747DA /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E4EF79E19D700FF003747DA /* AppKit.framework */; };
+		8E4EF7A119D700FF003747DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E4EF7A019D700FF003747DA /* Foundation.framework */; };
+		8E4EF7A619D700FF003747DA /* LGChat.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 8E4EF7A519D700FF003747DA /* LGChat.xcscheme */; };
+		8E4EF7B919D70157003747DA /* LGChat.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4EF7B819D70157003747DA /* LGChat.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E4EF79B19D700FF003747DA /* LGChat.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGChat.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E4EF79E19D700FF003747DA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		8E4EF7A019D700FF003747DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8E4EF7A519D700FF003747DA /* LGChat.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = LGChat.xcscheme; path = LGChat.xcodeproj/xcshareddata/xcschemes/LGChat.xcscheme; sourceTree = SOURCE_ROOT; };
+		8E4EF7B119D70157003747DA /* IDEConsoleArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEConsoleArea.h; sourceTree = "<group>"; };
+		8E4EF7B219D70157003747DA /* IDEConsoleTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEConsoleTextView.h; sourceTree = "<group>"; };
+		8E4EF7B319D70157003747DA /* IDEDebugArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEDebugArea.h; sourceTree = "<group>"; };
+		8E4EF7B419D70157003747DA /* IDEDefaultDebugArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEDefaultDebugArea.h; sourceTree = "<group>"; };
+		8E4EF7B519D70157003747DA /* IDEEditorArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEEditorArea.h; sourceTree = "<group>"; };
+		8E4EF7B619D70157003747DA /* IDEWorkspaceWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEWorkspaceWindowController.h; sourceTree = "<group>"; };
+		8E4EF7B719D70157003747DA /* LGChat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGChat.h; sourceTree = "<group>"; };
+		8E4EF7B819D70157003747DA /* LGChat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGChat.m; sourceTree = "<group>"; };
+		8E4EF7BA19D70161003747DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Supporting Files/Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E4EF79919D700FF003747DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E4EF79F19D700FF003747DA /* AppKit.framework in Frameworks */,
+				8E4EF7A119D700FF003747DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E4EF79219D700FF003747DA = {
+			isa = PBXGroup;
+			children = (
+				8E4EF7A219D700FF003747DA /* LGChat */,
+				8E4EF79D19D700FF003747DA /* Frameworks */,
+				8E4EF79C19D700FF003747DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E4EF79C19D700FF003747DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E4EF79B19D700FF003747DA /* LGChat.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E4EF79D19D700FF003747DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E4EF79E19D700FF003747DA /* AppKit.framework */,
+				8E4EF7A019D700FF003747DA /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E4EF7A219D700FF003747DA /* LGChat */ = {
+			isa = PBXGroup;
+			children = (
+				8E4EF7AF19D70157003747DA /* Sources */,
+				8E4EF7A319D700FF003747DA /* Supporting Files */,
+			);
+			path = LGChat;
+			sourceTree = "<group>";
+		};
+		8E4EF7A319D700FF003747DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E4EF7BA19D70161003747DA /* Info.plist */,
+				8E4EF7A519D700FF003747DA /* LGChat.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E4EF7AF19D70157003747DA /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8E4EF7B019D70157003747DA /* IDE Interface */,
+				8E4EF7B719D70157003747DA /* LGChat.h */,
+				8E4EF7B819D70157003747DA /* LGChat.m */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		8E4EF7B019D70157003747DA /* IDE Interface */ = {
+			isa = PBXGroup;
+			children = (
+				8E4EF7B119D70157003747DA /* IDEConsoleArea.h */,
+				8E4EF7B219D70157003747DA /* IDEConsoleTextView.h */,
+				8E4EF7B319D70157003747DA /* IDEDebugArea.h */,
+				8E4EF7B419D70157003747DA /* IDEDefaultDebugArea.h */,
+				8E4EF7B519D70157003747DA /* IDEEditorArea.h */,
+				8E4EF7B619D70157003747DA /* IDEWorkspaceWindowController.h */,
+			);
+			path = "IDE Interface";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E4EF79A19D700FF003747DA /* LGChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E4EF7AC19D700FF003747DA /* Build configuration list for PBXNativeTarget "LGChat" */;
+			buildPhases = (
+				8E4EF79719D700FF003747DA /* Sources */,
+				8E4EF79819D700FF003747DA /* Resources */,
+				8E4EF79919D700FF003747DA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGChat;
+			productName = LGChat;
+			productReference = 8E4EF79B19D700FF003747DA /* LGChat.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E4EF79319D700FF003747DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = l0gg3r;
+				TargetAttributes = {
+					8E4EF79A19D700FF003747DA = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 8E4EF79619D700FF003747DA /* Build configuration list for PBXProject "LGChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8E4EF79219D700FF003747DA;
+			productRefGroup = 8E4EF79C19D700FF003747DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E4EF79A19D700FF003747DA /* LGChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E4EF79819D700FF003747DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E4EF7A619D700FF003747DA /* LGChat.xcscheme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E4EF79719D700FF003747DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E4EF7B919D70157003747DA /* LGChat.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8E4EF7AA19D700FF003747DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		8E4EF7AB19D700FF003747DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		8E4EF7AD19D700FF003747DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = "LGChat/Supporting Files/Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		8E4EF7AE19D700FF003747DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = "LGChat/Supporting Files/Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E4EF79619D700FF003747DA /* Build configuration list for PBXProject "LGChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E4EF7AA19D700FF003747DA /* Debug */,
+				8E4EF7AB19D700FF003747DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E4EF7AC19D700FF003747DA /* Build configuration list for PBXNativeTarget "LGChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E4EF7AD19D700FF003747DA /* Debug */,
+				8E4EF7AE19D700FF003747DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E4EF79319D700FF003747DA /* Project object */;
+}
